@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace pokemon_battle_3
 {
-    public class Bayleef : Pokemon
+    public class Snorlax : Pokemon
     {
-        public Bayleef()
+        public Snorlax()
         {
-            base.Name = "Bayleef";
-            base.height = 3.11;
-            base.wirght = 34.8;
+            base.Name = "Snorlax";
+            base.height = 6.11;
+            base.wirght = 1014.1;
 
             base.gender = Gender.male;
             base.category = Category.mouse;
@@ -21,7 +21,7 @@ namespace pokemon_battle_3
             base.type = Type.electric;
             base.weaknesses = Type.ground;
 
-            base.image = Resources.Bayleef;
+            base.image = Resources.Snorlax;
         }
     }
 }

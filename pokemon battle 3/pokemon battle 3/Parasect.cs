@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace pokemon_battle_3
 {
-    public class Bayleef : Pokemon
+    public class Parasect : Pokemon
     {
-        public Bayleef()
+        public Parasect()
         {
-            base.Name = "Bayleef";
-            base.height = 3.11;
-            base.wirght = 34.8;
+            base.Name = "Parasect";
+            base.height = 3.03;
+            base.wirght = 65.0;
 
             base.gender = Gender.male;
             base.category = Category.mouse;
@@ -21,7 +21,7 @@ namespace pokemon_battle_3
             base.type = Type.electric;
             base.weaknesses = Type.ground;
 
-            base.image = Resources.Bayleef;
-        }
+            base.image = Resources.Parasect;
+        } 
     }
 }

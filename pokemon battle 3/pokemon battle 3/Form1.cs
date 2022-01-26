@@ -7,9 +7,9 @@ namespace pokemon_battle_3
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_switch1_Click(object sender, EventArgs e)
         {
-            
+          
             
         }
 
@@ -18,6 +18,26 @@ namespace pokemon_battle_3
             Pikachu pikachu = new Pikachu();
             this.labelPokemon.Text = pikachu.getName();
             this.pictureBox1.Image = pikachu.getImage();
+        }
+
+        private void button_switch2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_switch3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_switch4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_switch5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

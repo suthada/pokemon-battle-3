@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace pokemon_battle_3
 {
-    public class Bayleef : Pokemon
+    public class Quagsire : Pokemon
     {
-        public Bayleef()
+        public Quagsire()
         {
-            base.Name = "Bayleef";
-            base.height = 3.11;
-            base.wirght = 34.8;
+            base.Name = "Quagsire";
+            base.height = 4.07;
+            base.wirght = 165.3;
 
             base.gender = Gender.male;
             base.category = Category.mouse;
@@ -21,7 +21,7 @@ namespace pokemon_battle_3
             base.type = Type.electric;
             base.weaknesses = Type.ground;
 
-            base.image = Resources.Bayleef;
+            base.image = Resources.Quagsire;
         }
     }
 }
