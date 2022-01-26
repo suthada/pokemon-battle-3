@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "pokemon battle 3/1.0.0": {
+        "runtime": {
+          "pokemon battle 3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pokemon battle 3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

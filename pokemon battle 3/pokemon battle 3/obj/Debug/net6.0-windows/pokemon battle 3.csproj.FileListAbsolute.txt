@@ -6,3 +6,13 @@ C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-b
 C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.AssemblyInfoInputs.cache
 C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.AssemblyInfo.cs
 C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\bin\Debug\net6.0-windows\pokemon battle 3.exe
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\bin\Debug\net6.0-windows\pokemon battle 3.deps.json
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\bin\Debug\net6.0-windows\pokemon battle 3.runtimeconfig.json
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\bin\Debug\net6.0-windows\pokemon battle 3.dll
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\bin\Debug\net6.0-windows\ref\pokemon battle 3.dll
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\bin\Debug\net6.0-windows\pokemon battle 3.pdb
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.dll
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\ref\pokemon battle 3.dll
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.pdb
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.genruntimeconfig.cache

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pokemon_battle_3
 {
-    internal class Pokemon
+    public class Pokemon
     {
         protected string Name;
         protected double height;
@@ -14,10 +14,21 @@ namespace pokemon_battle_3
 
         protected Gender gender;
         protected Category category;
-        protected Ability abilities;
-        protected Image image;
+        protected Abilities abilities;
+        protected Bitmap image;
         protected Type type;
         protected Type weaknesses;
+
+        public string getName()
+        {
+            return this.Name;
+
+        }
+        public Image getImage()
+        {
+            return this.image;
+        }
+
     }
     public enum Gender
         {
@@ -30,7 +41,7 @@ namespace pokemon_battle_3
             mouse
         }
 
-    public enum Ability
+    public enum Abilities
         {
             static_
         }
