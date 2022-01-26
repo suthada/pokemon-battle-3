@@ -1,0 +1,8 @@
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon_battle_3.Form1.resources
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon_battle_3.Properties.Resources.resources
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.AssemblyInfo.cs
+C:\Users\HP\OneDrive\เอกสาร\GitHub\helloworldd\tammamamama\pokemon-battle-3\pokemon battle 3\pokemon battle 3\obj\Debug\net6.0-windows\pokemon battle 3.csproj.CoreCompileInputs.cache
