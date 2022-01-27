@@ -8,16 +8,21 @@ namespace pokemon_battle_3
 {
     public class Pokemon
     {
+        protected int hp;
+        protected int atk;
+        protected int def;
+        protected int speed;
+
         protected string Name;
         protected double height;
         protected double wirght;
 
         protected Gender gender;
         protected Category category;
-        protected Abilities abilities;
+        protected Abilities[] abilities;
         protected Bitmap image;
-        protected Type type;
-        protected Type weaknesses;
+        protected Type[] type;
+        protected Type[] weaknesses;
 
         public string getName()
         {
@@ -29,6 +34,12 @@ namespace pokemon_battle_3
             return this.image;
         }
 
+        public int getHP() { return hp; }
+        public int getATK() { return this.atk; }
+        public int getDEF() { return this.def; }
+        public int getSPEED() { return this.speed; }
+
+
     }
     public enum Gender
         {
@@ -38,17 +49,20 @@ namespace pokemon_battle_3
 
     public enum Category
         {
-            mouse
-        }
+            mouse, lizard, seed, superpower, mushroom, waterfish, sleeping, egg, leaf
+    }
 
     public enum Abilities
         {
-            static_
-        }
+            static_, blaze, overgrow, guts, no_gurad, effectspore, dryskin, damp,
+            waterabsorb, thickfat, immunity, natuialcure, serenegrace
+
+    }
 
     public enum Type
         {
-            electric, ground, fire, water, rock, grass, poison, phychic, flying, ice
-        }
+            electric, ground, fire, water, rock, grass, poison, phychic, 
+            flying, ice, fighting, fairy, bug, normal
+    }
     
 }

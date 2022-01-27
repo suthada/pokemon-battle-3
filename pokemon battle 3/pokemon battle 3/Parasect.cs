@@ -15,11 +15,16 @@ namespace pokemon_battle_3
             base.height = 3.03;
             base.wirght = 65.0;
 
+            base.hp = 60;
+            base.atk = 95;
+            base.def = 80;
+            base.speed = 30;
+
             base.gender = Gender.male;
-            base.category = Category.mouse;
-            base.abilities = Abilities.static_;
-            base.type = Type.electric;
-            base.weaknesses = Type.ground;
+            base.category = Category.mushroom;
+            base.abilities = new Abilities[] { Abilities.effectspore, Abilities.dryskin };
+            base.type = new Type[] { Type.bug, Type.grass };
+            base.weaknesses = new Type[] { Type.fire, Type.flying, Type.ice, Type.poison, Type.rock, Type.bug };
 
             base.image = Resources.Parasect;
         } 

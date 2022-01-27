@@ -15,11 +15,16 @@ namespace pokemon_battle_3
             base.height = 4.07;
             base.wirght = 165.3;
 
+            base.hp = 95;
+            base.atk = 85;
+            base.def = 85;
+            base.speed = 35;
+
             base.gender = Gender.male;
-            base.category = Category.mouse;
-            base.abilities = Abilities.static_;
-            base.type = Type.electric;
-            base.weaknesses = Type.ground;
+            base.category = Category.waterfish;
+            base.abilities = new Abilities[] { Abilities.damp, Abilities.waterabsorb };
+            base.type = new Type[] { Type.water, Type.ground };
+            base.weaknesses = new Type[] { Type.grass };
 
             base.image = Resources.Quagsire;
         }

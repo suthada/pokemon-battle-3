@@ -15,11 +15,16 @@ namespace pokemon_battle_3
             base.height = 6.11;
             base.wirght = 1014.1;
 
+            base.hp = 160;
+            base.atk = 110;
+            base.def = 65;
+            base.speed = 30;
+
             base.gender = Gender.male;
-            base.category = Category.mouse;
-            base.abilities = Abilities.static_;
-            base.type = Type.electric;
-            base.weaknesses = Type.ground;
+            base.category = Category.sleeping;
+            base.abilities = new Abilities[] { Abilities.thickfat, Abilities.immunity };
+            base.type = new Type[] { Type.normal };
+            base.weaknesses = new Type[] { Type.fighting };
 
             base.image = Resources.Snorlax;
         }

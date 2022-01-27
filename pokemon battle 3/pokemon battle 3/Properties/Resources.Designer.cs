@@ -83,6 +83,16 @@ namespace pokemon_battle_3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Machamp01 {
+            get {
+                object obj = ResourceManager.GetObject("Machamp01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Parasect {
             get {
                 object obj = ResourceManager.GetObject("Parasect", resourceCulture);

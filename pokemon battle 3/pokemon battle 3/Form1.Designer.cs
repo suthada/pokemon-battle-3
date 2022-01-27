@@ -41,6 +41,17 @@
             this.button_switch2 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.buttonATK = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBoxHP = new System.Windows.Forms.TextBox();
+            this.textBoxATK = new System.Windows.Forms.TextBox();
+            this.textBoxDEF = new System.Windows.Forms.TextBox();
+            this.textBoxSPEED = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -48,6 +59,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,9 +88,9 @@
             this.labelPokemon.AutoSize = true;
             this.labelPokemon.Location = new System.Drawing.Point(39, 176);
             this.labelPokemon.Name = "labelPokemon";
-            this.labelPokemon.Size = new System.Drawing.Size(50, 20);
+            this.labelPokemon.Size = new System.Drawing.Size(114, 20);
             this.labelPokemon.TabIndex = 2;
-            this.labelPokemon.Text = "label1";
+            this.labelPokemon.Text = "Pokemon Name";
             // 
             // groupBox1
             // 
@@ -91,9 +104,9 @@
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.button_switch1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 228);
+            this.groupBox1.Location = new System.Drawing.Point(356, 309);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(868, 220);
+            this.groupBox1.Size = new System.Drawing.Size(802, 220);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dex";
@@ -188,14 +201,121 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::pokemon_battle_3.Properties.Resources.Machamp01;
+            this.pictureBox7.Location = new System.Drawing.Point(943, 24);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(149, 132);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            // 
+            // buttonATK
+            // 
+            this.buttonATK.Location = new System.Drawing.Point(185, 440);
+            this.buttonATK.Name = "buttonATK";
+            this.buttonATK.Size = new System.Drawing.Size(104, 57);
+            this.buttonATK.TabIndex = 5;
+            this.buttonATK.Text = "Attack";
+            this.buttonATK.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(28, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "HP";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "ATK";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 101);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "DEF";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "SPEED";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.textBoxSPEED);
+            this.groupBox2.Controls.Add(this.textBoxDEF);
+            this.groupBox2.Controls.Add(this.textBoxATK);
+            this.groupBox2.Controls.Add(this.textBoxHP);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Location = new System.Drawing.Point(39, 245);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(250, 177);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // textBoxHP
+            // 
+            this.textBoxHP.Location = new System.Drawing.Point(79, 31);
+            this.textBoxHP.Name = "textBoxHP";
+            this.textBoxHP.ReadOnly = true;
+            this.textBoxHP.Size = new System.Drawing.Size(125, 27);
+            this.textBoxHP.TabIndex = 10;
+            // 
+            // textBoxATK
+            // 
+            this.textBoxATK.Location = new System.Drawing.Point(79, 64);
+            this.textBoxATK.Name = "textBoxATK";
+            this.textBoxATK.ReadOnly = true;
+            this.textBoxATK.Size = new System.Drawing.Size(125, 27);
+            this.textBoxATK.TabIndex = 11;
+            // 
+            // textBoxDEF
+            // 
+            this.textBoxDEF.Location = new System.Drawing.Point(79, 98);
+            this.textBoxDEF.Name = "textBoxDEF";
+            this.textBoxDEF.ReadOnly = true;
+            this.textBoxDEF.Size = new System.Drawing.Size(125, 27);
+            this.textBoxDEF.TabIndex = 12;
+            // 
+            // textBoxSPEED
+            // 
+            this.textBoxSPEED.Location = new System.Drawing.Point(79, 131);
+            this.textBoxSPEED.Name = "textBoxSPEED";
+            this.textBoxSPEED.ReadOnly = true;
+            this.textBoxSPEED.Size = new System.Drawing.Size(125, 27);
+            this.textBoxSPEED.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 597);
+            this.ClientSize = new System.Drawing.Size(1170, 597);
+            this.Controls.Add(this.buttonATK);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labelPokemon);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.groupBox2);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -207,6 +327,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,5 +350,16 @@
         private PictureBox pictureBox5;
         private Button button_switch5;
         private PictureBox pictureBox6;
+        private PictureBox pictureBox7;
+        private Button buttonATK;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private GroupBox groupBox2;
+        private TextBox textBoxSPEED;
+        private TextBox textBoxDEF;
+        private TextBox textBoxATK;
+        private TextBox textBoxHP;
     }
 }

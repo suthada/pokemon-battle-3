@@ -15,11 +15,16 @@ namespace pokemon_battle_3
             base.height = 3.07;
             base.wirght = 66.3;
 
+            base.hp = 250;
+            base.atk = 5;
+            base.def = 5;
+            base.speed = 50;
+
             base.gender = Gender.male;
-            base.category = Category.mouse;
-            base.abilities = Abilities.static_;
-            base.type = Type.electric;
-            base.weaknesses = Type.ground;
+            base.category = Category.egg;
+            base.abilities = new Abilities[] { Abilities.natuialcure, Abilities.serenegrace };
+            base.type = new Type[] { Type.normal };
+            base.weaknesses = new Type[] { Type.fighting };
 
             base.image = Resources.Chansey;
         }
