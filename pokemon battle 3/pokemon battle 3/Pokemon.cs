@@ -48,7 +48,7 @@ namespace pokemon_battle_3
 
     public enum Type
         {
-            electric, ground
+            electric, ground, fire, water, rock, grass, poison, phychic, flying, ice
         }
     
 }
