@@ -48,10 +48,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBoxHP = new System.Windows.Forms.TextBox();
-            this.textBoxATK = new System.Windows.Forms.TextBox();
-            this.textBoxDEF = new System.Windows.Forms.TextBox();
             this.textBoxSPEED = new System.Windows.Forms.TextBox();
+            this.textBoxDEF = new System.Windows.Forms.TextBox();
+            this.textBoxATK = new System.Windows.Forms.TextBox();
+            this.textBoxHP = new System.Windows.Forms.TextBox();
+            this.textBoxEnemyHP = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -219,6 +221,7 @@
             this.buttonATK.TabIndex = 5;
             this.buttonATK.Text = "Attack";
             this.buttonATK.UseVisualStyleBackColor = true;
+            this.buttonATK.Click += new System.EventHandler(this.buttonATK_Click);
             // 
             // label1
             // 
@@ -273,21 +276,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
-            // textBoxHP
+            // textBoxSPEED
             // 
-            this.textBoxHP.Location = new System.Drawing.Point(79, 31);
-            this.textBoxHP.Name = "textBoxHP";
-            this.textBoxHP.ReadOnly = true;
-            this.textBoxHP.Size = new System.Drawing.Size(125, 27);
-            this.textBoxHP.TabIndex = 10;
-            // 
-            // textBoxATK
-            // 
-            this.textBoxATK.Location = new System.Drawing.Point(79, 64);
-            this.textBoxATK.Name = "textBoxATK";
-            this.textBoxATK.ReadOnly = true;
-            this.textBoxATK.Size = new System.Drawing.Size(125, 27);
-            this.textBoxATK.TabIndex = 11;
+            this.textBoxSPEED.Location = new System.Drawing.Point(79, 131);
+            this.textBoxSPEED.Name = "textBoxSPEED";
+            this.textBoxSPEED.ReadOnly = true;
+            this.textBoxSPEED.Size = new System.Drawing.Size(125, 27);
+            this.textBoxSPEED.TabIndex = 13;
             // 
             // textBoxDEF
             // 
@@ -297,19 +292,46 @@
             this.textBoxDEF.Size = new System.Drawing.Size(125, 27);
             this.textBoxDEF.TabIndex = 12;
             // 
-            // textBoxSPEED
+            // textBoxATK
             // 
-            this.textBoxSPEED.Location = new System.Drawing.Point(79, 131);
-            this.textBoxSPEED.Name = "textBoxSPEED";
-            this.textBoxSPEED.ReadOnly = true;
-            this.textBoxSPEED.Size = new System.Drawing.Size(125, 27);
-            this.textBoxSPEED.TabIndex = 13;
+            this.textBoxATK.Location = new System.Drawing.Point(79, 64);
+            this.textBoxATK.Name = "textBoxATK";
+            this.textBoxATK.ReadOnly = true;
+            this.textBoxATK.Size = new System.Drawing.Size(125, 27);
+            this.textBoxATK.TabIndex = 11;
+            // 
+            // textBoxHP
+            // 
+            this.textBoxHP.Location = new System.Drawing.Point(79, 31);
+            this.textBoxHP.Name = "textBoxHP";
+            this.textBoxHP.ReadOnly = true;
+            this.textBoxHP.Size = new System.Drawing.Size(125, 27);
+            this.textBoxHP.TabIndex = 10;
+            // 
+            // textBoxEnemyHP
+            // 
+            this.textBoxEnemyHP.Location = new System.Drawing.Point(986, 173);
+            this.textBoxEnemyHP.Name = "textBoxEnemyHP";
+            this.textBoxEnemyHP.ReadOnly = true;
+            this.textBoxEnemyHP.Size = new System.Drawing.Size(125, 27);
+            this.textBoxEnemyHP.TabIndex = 15;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(913, 177);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(28, 20);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "HP";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 597);
+            this.Controls.Add(this.textBoxEnemyHP);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonATK);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.groupBox1);
@@ -361,5 +383,7 @@
         private TextBox textBoxDEF;
         private TextBox textBoxATK;
         private TextBox textBoxHP;
+        private TextBox textBoxEnemyHP;
+        private Label label5;
     }
 }

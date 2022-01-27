@@ -35,6 +35,7 @@ namespace pokemon_battle_3
         }
 
         public int getHP() { return hp; }
+        public void setHP(int newHP ) { hp = newHP; }
         public int getATK() { return this.atk; }
         public int getDEF() { return this.def; }
         public int getSPEED() { return this.speed; }

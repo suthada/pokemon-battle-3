@@ -40,6 +40,8 @@ namespace pokemon_battle_3
             this.textBoxATK.Text = pokemondex[0].getATK().ToString();
             this.textBoxDEF.Text = pokemondex[0].getDEF().ToString();
             this.textBoxSPEED.Text = pokemondex[0].getSPEED().ToString();
+
+            this.textBoxEnemyHP.Text = enemydex[0].getHP().ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -79,6 +81,21 @@ namespace pokemon_battle_3
         private void button_switch5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonATK_Click(object sender, EventArgs e)
+        {
+            int damage = pokemondex[0].getATK();
+            int newHP = enemydex[0].getHP() - damage;
+            enemydex[0].setHP(newHP);
+
+            if(enemydex[0].getHP() <= 0)
+            {
+                enemydex[0].setHP(0);
+             
+            }
+
+            diaplayPokemon();
         }
     }
 }

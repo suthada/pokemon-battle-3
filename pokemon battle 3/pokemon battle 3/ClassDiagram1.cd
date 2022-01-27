@@ -3,7 +3,7 @@
   <Class Name="pokemon_battle_3.Pokemon">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIQAABAAgAQAEAABAAAAAAQMAAAAAAE=</HashCode>
+      <HashCode>AAAAAAABAAACAIQAABAAgAQAEACBAQAAgARMAEAAAAE=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -45,7 +45,7 @@
   <Class Name="pokemon_battle_3.Form1">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAIhAAACAQAYAAAACAQEACAAAAAAAAACBAgABAAAA=</HashCode>
+      <HashCode>EEAEIhAAACAQAZAAIACAQEACAAIAAAAAAKBAgABAAAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -73,21 +73,21 @@
   <Enum Name="pokemon_battle_3.Category">
     <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAQAAAAAIAAEAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <HashCode>AAAAAAAAAAQARAAAAAIAAEAAAAAAAIIAAAAIAAAAAEA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="pokemon_battle_3.Abilities">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAggAAAAAQAAAAAAAAAAIAAEAA=</HashCode>
+      <HashCode>AACAAAAAAAAAAEAAAAEggAABAAQAAAAAAAAAAKAwGAA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="pokemon_battle_3.Type">
-    <Position X="2.25" Y="2.25" Width="1.5" />
+    <Position X="8.25" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABQAAICAAgBAAQAAAAIAAFAAEAAAAAAJAAAAAAAAAA=</HashCode>
+      <HashCode>AABQAAICAAgBAAQAAAAIAAlAAEAAAAAAJAAAAAAAAAA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Enum>
