@@ -35,11 +35,16 @@ namespace pokemon_battle_3
         }
 
         public int getHP() { return hp; }
-        public void setHP(int newHP ) { hp = newHP; }
+        private void setHP(int newHP ) { hp = newHP; }
         public int getATK() { return this.atk; }
         public int getDEF() { return this.def; }
         public int getSPEED() { return this.speed; }
-
+        public void attackPokemon(ref Pokemon enemy)
+        {
+            int damage = this.atk - enemy.getDEF();
+            int newHP = enemy.getHP() - damage;
+            enemy.setHP(newHP);
+        }
 
     }
     public enum Gender

@@ -18,7 +18,7 @@ namespace pokemon_battle_3
             base.hp = 90;
             base.atk = 180;
             base.def = 30;
-            base.speed = 55;
+            base.speed = 65;
 
             base.gender = Gender.male;
             base.category = Category.superpower;

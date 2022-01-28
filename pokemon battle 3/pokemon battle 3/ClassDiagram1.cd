@@ -3,7 +3,7 @@
   <Class Name="pokemon_battle_3.Pokemon">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAACAIQAABAAgAQAEACBAQAAgARMAEAAAAE=</HashCode>
+      <HashCode>AAAAAABBAAACAIQAABAAgAQAEACBAQAAgARMAEAAAAE=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Class>
