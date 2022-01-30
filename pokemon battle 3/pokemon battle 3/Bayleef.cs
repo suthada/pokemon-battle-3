@@ -12,19 +12,19 @@ namespace pokemon_battle_3
         public Bayleef()
         {
             base.Name = "Bayleef";
-            base.height = 3.11;
-            base.wirght = 34.8;
+            base.height = 1.04;
+            base.wirght = 13.2;
 
-            base.hp = 60;
-            base.atk = 62;
-            base.def = 80;
-            base.speed = 80;
+            base.hp = 35;
+            base.atk = 55;
+            base.def = 40;
+            base.speed = 90;
 
             base.gender = Gender.male;
-            base.category = Category.leaf;
-            base.abilities = new Abilities[] { Abilities.overgrow };
-            base.type = new Type[] { Type.grass };
-            base.weaknesses = new Type[] { Type.fire, Type.flying, Type.ice, Type.poison, Type.bug };
+            base.category = Category.mouse;
+            base.abilities = new Abilities[] { Abilities.static_ };
+            base.type = new Type[] { Type.electric };
+            base.weaknesses = new Type[] { Type.ground };
 
             base.image = Resources.Bayleef;
 
