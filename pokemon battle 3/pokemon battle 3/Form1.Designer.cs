@@ -52,7 +52,7 @@
             this.textBoxDEF = new System.Windows.Forms.TextBox();
             this.textBoxATK = new System.Windows.Forms.TextBox();
             this.textBoxHP = new System.Windows.Forms.TextBox();
-            this.textBoxEnemyHP = new System.Windows.Forms.TextBox();
+            this.textBoxEnmyHP = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -310,11 +310,11 @@
             // 
             // textBoxEnemyHP
             // 
-            this.textBoxEnemyHP.Location = new System.Drawing.Point(986, 173);
-            this.textBoxEnemyHP.Name = "textBoxEnemyHP";
-            this.textBoxEnemyHP.ReadOnly = true;
-            this.textBoxEnemyHP.Size = new System.Drawing.Size(125, 27);
-            this.textBoxEnemyHP.TabIndex = 15;
+            this.textBoxEnmyHP.Location = new System.Drawing.Point(986, 173);
+            this.textBoxEnmyHP.Name = "textBoxEnemyHP";
+            this.textBoxEnmyHP.ReadOnly = true;
+            this.textBoxEnmyHP.Size = new System.Drawing.Size(125, 27);
+            this.textBoxEnmyHP.TabIndex = 15;
             // 
             // label5
             // 
@@ -330,7 +330,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 597);
-            this.Controls.Add(this.textBoxEnemyHP);
+            this.Controls.Add(this.textBoxEnmyHP);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonATK);
             this.Controls.Add(this.pictureBox7);
@@ -385,7 +385,7 @@
         private TextBox textBoxDEF;
         private TextBox textBoxATK;
         private TextBox textBoxHP;
-        private TextBox textBoxEnemyHP;
+        private TextBox textBoxEnmyHP;
         private Label label5;
     }
 }

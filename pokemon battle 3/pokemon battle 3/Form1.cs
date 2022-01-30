@@ -41,7 +41,7 @@ namespace pokemon_battle_3
             this.textBoxDEF.Text = pokemondex[0].getDEF().ToString();
             this.textBoxSPEED.Text = pokemondex[0].getSPEED().ToString();
 
-            this.textBoxEnemyHP.Text = enemydex[0].getHP().ToString();
+            this.textBoxEnmyHP.Text = enemydex[0].getHP().ToString();
             
             //if(pokemondex[0].getHP() <= 0)
             //{

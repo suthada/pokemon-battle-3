@@ -13,7 +13,7 @@ namespace pokemon_battle_3
         {
             base.Name = "Machamp";
             base.height = 5.03;
-            base.wirght = 256.6;
+            base.wirght = 286.8;
 
             base.hp = 90;
             base.atk = 180;
